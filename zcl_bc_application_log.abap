@@ -1,3 +1,17 @@
+**************************************************************************************
+* Important Transactions
+* The important transactions codes used for application log are as following:
+* ·      SLG0 – Create a new Log Object and sub object
+* ·      SLG1 – Display Application Log
+* ·      SLG2 – Delete the Application Log
+* Creation of object and sub object:
+* For generating a custom application log we need to create a new log object and sub object.
+* For this we use transaction SLG0.
+* Go to transaction SLG0 and click on new entries.
+* Then give the name of object and save.
+* For any of the object we can create the sub object as well.
+* Sub objects are simply further classifications of the
+**************************************************************************************
 CLASS zcl_bc_application_log DEFINITION
   PUBLIC
   FINAL
